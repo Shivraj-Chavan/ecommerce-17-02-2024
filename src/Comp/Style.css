@@ -1,0 +1,82 @@
+*{
+    margin:0px;
+    padding:0px;
+    font-family:Arial
+}
+.navbar{
+    height:100px;
+    width:100%;
+    background-color:#eee ;
+    display: flex;
+}
+.logo{
+    height:100px;
+    width:30%;
+   
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.logo h1{
+padding:0px 20px
+}
+.search-bar{
+    height:100px ;
+    width:30%;
+
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.login{
+    height:100px;
+    width:40%;
+  
+}
+.login ul{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    height: 100px;
+    width:100%;
+ 
+}
+.login ul li{
+    width:100px;
+    list-style: none;
+    text-align: center;
+}
+.box{
+    height:80px;
+    width:360px;
+    background-color: #eee;
+    margin:0px 5px
+}
+
+.mycart{
+    height:400px;
+    width:350px;
+  
+}
+.top{
+    height:250px;
+    background-color: yellow;
+}
+.top img{
+    height:100%;
+    width:100%
+}
+.bottom{
+    height:150px;
+   
+}
+.bottom p{
+    font-size:13px;
+    padding: 0px 0px 0px 40px;
+}
+.left{
+    width:50%;
+}
+.right{
+    width:50%
+}
